@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    home
+    hello class组件
   </div>
 </template>
 
@@ -13,4 +13,7 @@ export default {
 }
 </script>
 
-<style scoped lang="stylus"></style>
+<style scoped lang="stylus">
+.container
+  color #008000
+</style>

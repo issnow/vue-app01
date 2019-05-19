@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    home
+    slot-demo
   </div>
 </template>
 
