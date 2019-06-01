@@ -10,6 +10,10 @@
     <input type="radio" name="radio" value="a" v-model="radio" />a
     <input type="radio" name="radio" value="b" v-model="radio" />b
     {{ radio }}
+
+    <h4>basicInput</h4>
+    <basic-input v-model="check"></basic-input>
+    {{ check }}
   </div>
 </template>
 
@@ -20,7 +24,8 @@ export default {
     return {
       input: '',
       radio: '',
-      radio2: ''
+      radio2: '',
+      check: true
     }
   },
   methods: {

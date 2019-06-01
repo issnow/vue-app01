@@ -41,6 +41,16 @@ export default new router({
       path: '/flex',
       name: 'flex',
       component: () => import('views/flex')
+    },
+    {
+      path: '/grid',
+      name: 'grid',
+      component: () => import('views/grid')
+    },
+    {
+      path: '/map',
+      name: 'map',
+      component: () => import('views/map')
     }
   ]
 })

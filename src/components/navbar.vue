@@ -7,10 +7,13 @@
     <router-link to="/swiper">swiper</router-link>
     <router-link to="/input">input</router-link>
     <router-link to="/flex">flex布局</router-link>
+    <router-link to="/grid">grid布局</router-link>
+    <router-link to="/map">map</router-link>
   </div>
 </template>
 
 <script>
+import 'echarts/map/js/china.js'
 export default {
   components: {},
   data() {

@@ -5,6 +5,13 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+/**
+ * （无需注册组建）直接使用
+ *  注意：1.components中的组件不能以-连接
+ *       2.建议驼峰式命名vue文件(大驼峰、小驼峰都可以)
+ */
+import 'components/global.js'
+
 // 公共样式
 import 'common/stylus/main.styl'
 
@@ -20,6 +27,10 @@ Vue.prototype._ = _
 // swiper
 import 'swiper/dist/css/swiper.min.css'
 
+// echarts
+import echarts from 'echarts'
+
+Vue.prototype.echarts = echarts
 new Vue({
   router,
   store,
