@@ -13,7 +13,13 @@
 
     <h4>basicInput</h4>
     <basic-input v-model="check"></basic-input>
-    {{ check }}
+    {{ check }}<br />
+    <label-input
+      @focus.native="onFocus"
+      label="测试"
+      value=""
+      @input="alert(1)"
+    ></label-input>
   </div>
 </template>
 
@@ -31,6 +37,9 @@ export default {
   methods: {
     edit() {
       console.log(this.input)
+    },
+    onFocus() {
+      console.log('focus')
     }
   }
 }
