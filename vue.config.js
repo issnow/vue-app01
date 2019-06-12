@@ -15,6 +15,7 @@ module.exports = {
       .set('common', resolve('src/common'))
       .set('store', resolve('src/store'))
       .set('views', resolve('src/views'))
+      .set('request', resolve('src/request'))
   },
   devServer: {
     port: 8888 /* 端口号 */
