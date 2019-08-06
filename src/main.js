@@ -44,6 +44,24 @@ fontawesome.library.add(brands)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.prototype.echarts = echarts
+
+router.beforeEach((to, from, next)=>{
+  // console.log('router is changing')
+  if(to.matched.some(e=>e.meta.needLogin)) {
+    if(false) {
+      next({name: 'login'})
+    }else {
+      next()
+    }
+  }else {
+    next()
+  }
+  // console.log(next)
+  // next()
+})
+// router.afterEach((to, from)=>{
+//   console.log(to, from)
+// })
 new Vue({
   router,
   store,

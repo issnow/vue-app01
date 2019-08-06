@@ -9,6 +9,8 @@
     <router-link to="/flex">flex布局</router-link>
     <router-link to="/grid">grid布局</router-link>
     <router-link to="/map">map</router-link>
+    <router-link to="/user/1003">1003</router-link>
+    <router-link to="/user/1004">1004</router-link>
   </div>
 </template>
 
