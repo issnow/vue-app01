@@ -20,7 +20,7 @@
     "element-ui": "^2.8.2",
     "lodash": "^4.17.11",
     "qs": "^6.7.0",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuedraggable": "^2.23.0",
